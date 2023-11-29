@@ -34,8 +34,15 @@ def get_tweet(link):
   tweet_past = soup.find(class_="before-tweet")
   if tweet_past:
     tweet_prevs = tweet_past.find_all(class_="timeline-item")
-    data["ancestor"] = tweet_prevs[0].find(class_="tweet-link").get("href")
     data["parent"] = tweet_prevs[-1].find(class_="tweet-link").get("href")
+    ancestor = tweet_prevs[0]
+    while ancestor.find(class_="more-replies-text"):
+      req_ = requests.get("https://nitter.net" + ancestor.find(class_="more-replies-text").get("href"), headers=header)      
+      soup_ = bs4.BeautifulSoup(req_.text, 'html.parser').select('body')[0]
+      tweet_past_ = soup_.find(class_="before-tweet")
+      tweet_prevs = tweet_past_.find_all(class_="timeline-item")
+      ancestor = tweet_prevs[0]
+    data["ancestor"] = tweet_prevs[0].find(class_="tweet-link").get("href")
   tweet_replies = soup.find(id="r")
   if tweet_replies:
     replies = tweet_replies.find_all(class_="reply")
@@ -44,11 +51,12 @@ def get_tweet(link):
   return (data, reply_links)
 
 def main():
-  links = json.load(open("code/links.json"))
+  links = json.load(open("data/nos_search_filtered.json"))
+  links = [i["link"] for i in links]
   while len(links) > 0:
     tweet_data, tweet_replies = get_tweet(links.pop())
     data.append(tweet_data)
     links.extend(tweet_replies)
-  json.dump(data, open("code/data.json", 'w'), ensure_ascii=False)
+  json.dump(data, open("code/nederlands.json", 'w'), ensure_ascii=False)
 
 main()
