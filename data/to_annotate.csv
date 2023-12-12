@@ -1,4 +1,4 @@
-user,content,timestamp,country
+user,content,timestamp,country,sentiment,issue/problema,standpoint,arguments
 @dan_doshal,"ואז דב ומואב עשו מחווה נהדרת לגשש בשירים ושערים.
 ""דובי, תשאל אותו בבקשה מה יעשה כשייכנסו הטנקים""
 ""זה בדיוק מה ששאלתי אותו מואב""","Feb 25, 2022 · 5:48 PM UTC",IL
@@ -111,12 +111,12 @@ chat.whatsapp.com/I0qhLmdtdP…","Feb 24, 2022 · 7:30 PM UTC",IL
 Donbass: The Grey Zone. Life in the frontline villages  
 
 piped.video/watch?v=Kc7P6j…","Feb 24, 2022 · 9:26 PM UTC",IL
-@Jetje78999135,"Vreselijk!😪 We laten een land met goede bedoelingen richting EU/NAVO ""gewoon"" in de kou staan.","Feb 25, 2022 · 9:04 AM UTC",NL
-@pukkel471,Ze staat op de bus te wachten naar het werk.,"Feb 25, 2022 · 7:58 AM UTC",NL
+@Jetje78999135,"Vreselijk!😪 We laten een land met goede bedoelingen richting EU/NAVO ""gewoon"" in de kou staan.","Feb 25, 2022 · 9:04 AM UTC",NL,neg,Standpoint on the war?,"We laten een land met goede bedoelingen richting EU/NAVO ""gewoon"" in de kou staan.",NaN
+@pukkel471,Ze staat op de bus te wachten naar het werk.,"Feb 25, 2022 · 7:58 AM UTC",NL,neu,NaN,NaN,NaN
 @9a0aa893b7b444f,"Poetin maakt het niet uit als de bevolking honger heeft.
-Hij is gek en doet wat hij wil","Feb 24, 2022 · 8:58 PM UTC",NL
-@PhilipEdinbruh,"De AZC's zitten al vol met mannen, laten we het nu beperken tot vrouwen","Feb 24, 2022 · 1:17 PM UTC",NL
-@Melcom53685249,Europese leiders hebben geen ruggengraat met hun geouwehoer over zware sancties die eigenlijk niets voorstellen.,"Feb 25, 2022 · 2:56 PM UTC",NL
+Hij is gek en doet wat hij wil","Feb 24, 2022 · 8:58 PM UTC",NL,neu,View on Putin,Hij is gek en doet wat hij wil,Poetin maakt het niet uit als de bevolking honger heeft.?
+@PhilipEdinbruh,"De AZC's zitten al vol met mannen, laten we het nu beperken tot vrouwen","Feb 24, 2022 · 1:17 PM UTC",NL,neu,Which refugees to allow entering the country,"De AZC's zitten al vol met mannen, laten we het nu beperken tot vrouwen",NaN
+@Melcom53685249,Europese leiders hebben geen ruggengraat met hun geouwehoer over zware sancties die eigenlijk niets voorstellen.,"Feb 25, 2022 · 2:56 PM UTC",NL,neg,Sanctions against Putin and his followers,Europese leiders hebben geen ruggengraat,geouwehoer over zware sancties die eigenlijk niets voorstellen.
 @pukkel471,Hij zal wel met zijn staart tussen de benen vluchten met zijn corrupte bende.,"Feb 25, 2022 · 3:55 PM UTC",NL
 @58Kameleon,Stop eens met deze propaganda. Er is helemaal niets aan de hand in Oekraine. Mensen maar bang maken. Gelukkig hebben vele Nederlanders door waar jullie staattv mee bezig zijn. Alleen maar FAKENIEUWS,"Feb 24, 2022 · 6:32 AM UTC",NL
 @TINUS51,"De reacties zijn weer van het allerhoogste niveau …. Man man man , ik hoop voor jullie dat je nooit in een oorlog verzeild raakt . Ik heb in de jaren 90 in Bosnië gezien wat dat doet !!!!!","Feb 24, 2022 · 3:55 PM UTC",NL
